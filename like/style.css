@@ -1,0 +1,22 @@
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.myButton{
+    background:url(./images/heart.png) no-repeat;
+    background-size:cover;
+    cursor:pointer;
+    border:none;
+    width:222px;
+    height:200px;
+}
+
+#text-in-heart {
+	color:white;
+	font-size:150%;
+}
